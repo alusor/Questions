@@ -1,0 +1,17 @@
+/Users/Alusor/Documents/UnityProjects/QuestionsPro/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/Alusor/Documents/UnityProjects/QuestionsPro/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/Alusor/Documents/UnityProjects/QuestionsPro/obj/Debug/Assembly-CSharp.dll
+/Users/Alusor/Documents/UnityProjects/QuestionsPro/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/Alusor/Documents/UnityProjects/QuestionsPro/Temp/bin/Debug/UnityEngine.dll
+/Users/Alusor/Documents/UnityProjects/QuestionsPro/Temp/bin/Debug/UnityEditor.dll
+/Users/Alusor/Documents/UnityProjects/QuestionsPro/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/Alusor/Documents/UnityProjects/QuestionsPro/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/Alusor/Documents/UnityProjects/QuestionsPro/Temp/bin/Debug/Mono.Cecil.dll
+/Users/Alusor/Documents/UnityProjects/QuestionsPro/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/Alusor/Documents/UnityProjects/QuestionsPro/Temp/bin/Debug/Unity.DataContract.dll
+/Users/Alusor/Documents/UnityProjects/QuestionsPro/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/Alusor/Documents/UnityProjects/QuestionsPro/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/Alusor/Documents/UnityProjects/QuestionsPro/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/Alusor/Documents/UnityProjects/QuestionsPro/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/Alusor/Documents/UnityProjects/QuestionsPro/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/Alusor/Documents/UnityProjects/QuestionsPro/Temp/bin/Debug/Mono.Cecil.Mdb.dll
