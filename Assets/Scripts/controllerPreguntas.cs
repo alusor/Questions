@@ -34,12 +34,16 @@ public class controllerPreguntas : MonoBehaviour {
 		if (!GM.returnJugando ())
 			return;
 		if (listapreguntas [index].respuestas [id].correcta) {
-			comprobacion.text = "Correcta";
+			//comprobacion.text = "Correcta";
 			GM.siguientePregunta ();
 			GM.puntaje += 10;
+			GM.re.enabled = true;
+			GM.re.sprite = GM.correcto;
 
 		} else {
-			comprobacion.text = "Incorrecta";
+			//comprobacion.text = "Incorrecta";
+			GM.re.enabled = true;
+			GM.re.sprite = GM.incorrecto;
 			GM.siguientePregunta ();
 
 		}
@@ -54,9 +58,12 @@ public class controllerPreguntas : MonoBehaviour {
 		pregunta.text = listapreguntas [0].pregunta;
 		for (int i = 0; i < 4; i++) {
 			opciones [i].GetComponentInChildren<Text> ().text = listapreguntas [0].respuestas [i].r;
-			if (listapreguntas [0].respuestas [i].correcta) {
+
+
+		/*Pintar correcta*/
+			/*if (listapreguntas [0].respuestas [i].correcta) {
 				opciones [i].GetComponentInChildren<Text> ().color = new Color (1.0f,0,0);
-			}
+			}*/
 		}
 
 		Debug.Log ("Final primera");

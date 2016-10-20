@@ -36,8 +36,12 @@ public class GameManager : MonoBehaviour {
 	public Text pun;
 	public bool jugando;
 	public RectTransform timerUI;
+	public Image re;
+	public Sprite correcto;
+	public Sprite incorrecto;
 	// Use this for initialization
 	void Start () {
+		re.enabled = false;
 		jugando = true;
 		comenzarContador ();
 		cambiando = false;
