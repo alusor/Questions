@@ -87,6 +87,7 @@ public class GameManager : MonoBehaviour {
 	}
 	public void siguientePregunta(){
 		pun.text = puntaje.ToString ();
+       // re.enabled = false;
 		StartCoroutine ("next");
 	}
 	IEnumerator next(){

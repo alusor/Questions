@@ -41,9 +41,10 @@ public class controllerPreguntas : MonoBehaviour {
 			GM.re.sprite = GM.correcto;
 
 		} else {
-			//comprobacion.text = "Incorrecta";
-			GM.re.enabled = true;
-			GM.re.sprite = GM.incorrecto;
+            //comprobacion.text = "Incorrecta";
+            GM.re.sprite = GM.incorrecto;
+            GM.re.enabled = true;
+			
 			GM.siguientePregunta ();
 
 		}
@@ -81,11 +82,12 @@ public class controllerPreguntas : MonoBehaviour {
 		pregunta.text = listapreguntas [t].pregunta;
 		for (int i = 0; i < 4; i++) {
 			opciones [i].GetComponentInChildren<Text> ().text = listapreguntas [t].respuestas [i].r;
-			if (listapreguntas [t].respuestas [i].correcta) {
+            /*if (listapreguntas [t].respuestas [i].correcta) {
 				opciones [i].GetComponentInChildren<Text> ().color = new Color (1.0f, 0, 0);
 			} else {
 				opciones [i].GetComponentInChildren<Text> ().color = new Color (0, 0, 0);
-			}
+			}*/
+            GM.re.enabled = false;
 		}
 		Debug.Log ("Capacidad: " + listapreguntas.Capacity);
 		Debug.Log (index);
