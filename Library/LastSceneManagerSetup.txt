@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/preguntas.unity
+- path: Assets/Scenes/perfil.unity
   isLoaded: 1
   isActive: 1
