@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Preguntas.cs" />
      <Compile Include="Assets\Scripts\animationUIController.cs" />
+     <Compile Include="Assets\Scripts\cargarDatos.cs" />
      <Compile Include="Assets\Scripts\controllerPreguntas.cs" />
      <Compile Include="Assets\Scripts\registerController.cs" />
      <Compile Include="Assets\Scripts\sceneController.cs" />

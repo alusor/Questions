@@ -14,11 +14,13 @@ public class registerController : MonoBehaviour {
 	public InputField pswd;
 	public Text respesta;
 
+
 	// Use this for initialization
 	void Start () {
 		if (PlayerPrefs.HasKey ("sesion")) {
 			SceneManager.LoadScene ("seleccion");
 		}
+
 
 		
 	}
@@ -41,6 +43,10 @@ public class registerController : MonoBehaviour {
 		PlayerPrefs.SetString ("usuario",a);
 		PlayerPrefs.SetString ("email",b);
 		PlayerPrefs.SetInt ("sesion",1);
+		PlayerPrefs.SetInt ("puntajeMax",0);
+		PlayerPrefs.SetInt ("ultimoNivel",1);
+		PlayerPrefs.SetInt ("partidasJugadas",0);
 		Debug.Log ("guardado");
 	}
+
 }
