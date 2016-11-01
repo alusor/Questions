@@ -15,8 +15,8 @@ public class cargarDatos : MonoBehaviour {
 	
 	}
 	public void cargar(){
-		if (PlayerPrefs.HasKey ("sesion")) {
-			informacion.text = "Usuario: " + PlayerPrefs.GetString ("usuario") + "\nEmail: " + PlayerPrefs.GetString ("email") + "\nPuntaje Maximo: " + PlayerPrefs.GetInt ("puntajeMax").ToString () + "\nUltimo nivel jugado: " + PlayerPrefs.GetInt ("ultimoNivel").ToString () + "\nPartidas jugadas: " + PlayerPrefs.GetInt ("partidasJugadas").ToString (); 
+		if (PlayerPrefs.HasKey ("sesion")) {    
+			informacion.text = "Usuario: " + PlayerPrefs.GetString ("usuario") + "\nEmail: " + PlayerPrefs.GetString ("email")  + "\nUltimo nivel jugado: " + PlayerPrefs.GetInt ("ultimoNivel").ToString () + "\nPartidas jugadas: " + PlayerPrefs.GetInt ("partidasJugadas").ToString (); 
 		}
 	}
 }

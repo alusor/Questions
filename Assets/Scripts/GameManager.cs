@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour {
 	public Image re;
 	public Sprite correcto;
 	public Sprite incorrecto;
+    
 	// Use this for initialization
 	void Start () {
 		re.enabled = false;
@@ -91,11 +92,11 @@ public class GameManager : MonoBehaviour {
 		StartCoroutine ("next");
 	}
 	IEnumerator next(){
-		tiempoRestante.text="Cargando siguiente pregunta";
+		tiempoRestante.text=":'D    ";
 		cambiando = true;
 		yield return new WaitForSeconds (1f);
 		for (int i = 3; i >= 0; i--) {
-			tiempoRestante.text = "Siguiente pregunta en: " + i.ToString ();
+			tiempoRestante.text = "Siguiente: " + i.ToString ();
 			yield return new WaitForSeconds (1f);
 		}
 		p.nextQuestion ();
@@ -108,8 +109,5 @@ public class GameManager : MonoBehaviour {
 	}
 	public bool returnJugando(){
 		return jugando;
-	}
-	void yaNoMasPreguntas(){
-	
 	}
 }

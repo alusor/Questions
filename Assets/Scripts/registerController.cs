@@ -47,6 +47,7 @@ public class registerController : MonoBehaviour {
 		PlayerPrefs.SetInt ("ultimoNivel",1);
 		PlayerPrefs.SetInt ("partidasJugadas",0);
 		Debug.Log ("guardado");
-	}
+        SceneManager.LoadScene("seleccion");
+    }
 
 }
